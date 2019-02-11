@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Security System</title>
+	<link rel="stylesheet" type="text/css" href="Tsiory/css/bootstrap.min.css">
+	<script type="text/javascript" src="Tsiory/js/script.js"></script>
+	<style type="text/css">
+	.container{
+		width: 785px;
+		height: 560px;
+		margin-top: 5%;
+		margin-bottom: 4%;
+	}
+	.block1On{
+		background-image: url(Tsiory/1_On.png);
+		width: 284px;
+		height: 358px;
+	}
+	.block2On{
+		background-image: url(Tsiory/2_On.png);
+		width: 501px;
+		height: 196px;
+	}
+	.block3On{
+		background-image: url(Tsiory/3_On.png);
+		width: 284px;
+		height: 239px;
+	}
+	.block4On{
+		background-image: url(Tsiory/4_On.png);
+		width: 178px;
+		height: 402px;
+	}
+	.block5On{
+		background-image: url(Tsiory/5_On.png);
+		width: 323px;
+		height: 402px;
+	}
+	.block1{
+		background-image: url(Tsiory/1_Off.png);
+		width: 284px;
+		height: 358px;
+	}
+	.block2{
+		background-image: url(Tsiory/2_Off.png);
+		width: 501px;
+		height: 196px;
+	}
+	.block3{
+		background-image: url(Tsiory/3_Off.png);
+		width: 284px;
+		height: 239px;
+	}
+	.block4{
+		background-image: url(Tsiory/4_Off.png);
+		width: 178px;
+		height: 402px;
+	}
+	.block5{
+		background-image: url(Tsiory/5_Off.png);
+		width: 323px;
+		height: 402px;
+	}
+	.row{
+		flex-wrap: nowrap;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
+	.col-md-12, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4{
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
+	
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<a href="#" onclick="allume(1)">
+					<div id="block1" class="row block1">
+
+					</div>				
+				</a>
+				<a href="#" onclick="allume(3)">
+					<div id="block3" class="row block3">
+
+					</div>
+				</a>	
+			</div>
+			<div class="col-md-8">
+				<a href="#" onclick="allume(2)">
+					<div id="block2" class="block2">
+
+					</div>	
+				</a>
+				<div class="row">
+					<a href="#" onclick="allume(4)">
+						<div id="block4" class="block4">
+
+						</div>	
+					</a>
+					<a href="#" onclick="allume(5)">
+						<div id="block5" class="block5">
+
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
